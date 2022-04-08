@@ -1,9 +1,16 @@
-import React from "react";
-import JSXVariables from "./components/JSXVariables";
+import './App.css';
+import BucketList from './components/BucketList';
 
 function App() {
-  return <JSXVariables />;
+  return (
+    <div className="bucket-app">
+      <BucketList />
+    </div>
+  );
 }
 
 export default App;
+
+
+
 
